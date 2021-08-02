@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,b,resultado;
+    
+    while(1)
+    {
+    
+    printf("Digite o numero de quilometros:");
+    scanf("%d",&d);
+    
+    printf("Informe a quantidade de litros usados: ");
+    scanf("%d",&b);
+    
+    resultado=d/b;
+    
+    
+    printf("o consumo em km/l que o carro tem é de: %d""\n\n",resultado);
+    }
+    
+    
+    return 0;
+}
